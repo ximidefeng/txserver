@@ -1,0 +1,14 @@
+server:
+  port: 8849
+spring:
+  data:
+    mongodb:
+      uri: mongodb://tahu:tahu@localhost:27017/appdb?authSource=admin
+  messages:
+    basename: i18n/messages
+    encoding: UTF-8
+tb:
+  url: "http://localhost:8080"
+  username: "tenant@thingsboard.org"
+  password: "tenant"
+
